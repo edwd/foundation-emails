@@ -3,6 +3,9 @@
   "version": "2.2.1",
   "description": "A framework for responsive emails made by ZURB",
   "main": "dist/foundation-emails.css",
+  "scripts": {
+    "build": "sass scss/foundation-emails.scss dist/foundation-emails.css && sass --style=compressed scss/foundation-emails.scss dist/foundation-emails.min.css"
+  },
   "author": "ZURB <foundation@zurb.com> (http://foundation.zurb.com)",
   "repository": "https://github.com/zurb/foundation-emails",
   "license": "MIT",

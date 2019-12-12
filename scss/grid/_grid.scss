@@ -98,7 +98,7 @@ th.column {
     &.button {
       width:auto;
 
-      &.expanded{
+      &.expanded, &.expand {
         width: 100%;
       }
     }
